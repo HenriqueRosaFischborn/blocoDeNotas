@@ -48,3 +48,32 @@ p {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+#mudarTema {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Dark tema */
+
+body.darkTheme {
+    background-color: #333;
+    color: #c9c9c9;
+}
+
+body.darkTheme div.container {
+    background-color: #333;
+    color: #c9c9c9;
+    border: solid 2px #c9c9c9;
+}
+
+body.darkTheme p { 
+    color: #c9c9c9;
+}
+
+body.darkTheme #blocoDeNotas {
+    border: 1px solid #ced4da;
+    background-color: #333;
+    color: #c9c9c9;
+}

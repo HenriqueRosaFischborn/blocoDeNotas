@@ -65,5 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
 
-
+    const mudarTema = document.getElementById('mudarTema')
+    mudarTema.addEventListener('click', () => {
+        document.body.classList.toggle('darkTheme')
+    })
 });
